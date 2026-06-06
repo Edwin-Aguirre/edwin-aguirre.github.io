@@ -113,7 +113,7 @@
 								style: 'margin-left: 20px; font-size: 0.65em; height: 2.55em; line-height: 2.55em; padding: 0 1em; cursor: pointer;'
 							});
 
-							// 2. When clicked, switch from Poptrox to our Custom Game Player
+							// 2. When clicked, switch from Poptrox to Custom Game Player
 							$btn.on('click', function(e) {
 								e.preventDefault();
 								e.stopPropagation();
@@ -136,9 +136,9 @@
 								});
 
 								// Add a foolproof Close button
-								var $closeBtn = $('<div>✕ Close Game</div>').css({
+								var $closeBtn = $('<div></div>').css({
 									'position': 'absolute', 'top': '30px', 'right': '40px',
-									'color': '#49bf9d', 'font-size': '1.2em', 'font-weight': 'bold', 
+									'color': '#F5F5E9', 'font-size': '1.2em', 'font-weight': 'bold', 
 									'cursor': 'pointer', 'text-transform': 'uppercase', 
 									'letter-spacing': '1px', 'z-index': '1000000'
 								});
@@ -150,7 +150,7 @@
 									'aspect-ratio': '16 / 9',
 									'background': '#000',
 									'border-radius': '6px',
-									'box-shadow': '0 0 40px rgba(0,0,0,0.8)' // Adds a nice shadow
+									'box-shadow': '0 0 40px rgba(0,0,0,0.8)'
 								});
 
 								var $iframe = $('<iframe>', {
