@@ -3388,6 +3388,13 @@ select:focus {
 #two .row > * {
     width: auto;
 }
+
+#two h3:hover{
+	color: #F5F5E9;
+    text-shadow: 0 0 8px #F5F5E9;
+    transition: all 0.3s ease;
+}
+
 .poptrox-popup {
     background: rgba(255,255,255,0.08);
 
