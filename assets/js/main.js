@@ -110,7 +110,7 @@
 							var $btn = $('<button>', {
 								class: 'button play-btn',
 								text: 'Play Game',
-								style: 'margin-left: 20px; font-size: 0.65em; height: 2.55em; line-height: 2.55em; padding: 0 1em; cursor: pointer;'
+								style: 'margin-left: 20px; font-size: 0.85em; height: 2.55em; line-height: 2.55em; padding: 0 1em; cursor: pointer;'
 							});
 
 							// 2. When clicked, switch from Poptrox to Custom Game Player
